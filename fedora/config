@@ -208,8 +208,8 @@
         "tooltip-format-wifi": "<big></big> {ifname}\n\n<big></big> {gwaddr} \n\n<big></big> {ipaddr}/{cidr} \n\n<big>{icon}</big>  {essid} ({signalStrength}%)\n\n<big>⇣</big>{bandwidthDownBytes}  <big>⇡</big>{bandwidthUpBytes}",
         "tooltip-format-ethernet": "<big></big> {ifname}\n\n<big></big> {gwaddr} \n\n<big></big> {ipaddr}/{cidr} \n\n<big>⇣</big>{bandwidthDownBytes}  <big>⇡</big>{bandwidthUpBytes}",
         "tooltip-format-disconnected": "Disconnected",
-        // "on-click": "~/.config/rofi/wifi/wifi.sh &",
-        // "on-click-right": "~/.config/rofi/wifi/wifinew.sh &",
+        "on-click": "~/.config/rofi/wifi/wifi.sh &",
+        "on-click-right": "~/.config/rofi/wifi/wifinew.sh &",
         "interval": 2,
         "nospacing": 1,
     }, // }}}
